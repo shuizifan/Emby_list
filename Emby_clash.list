@@ -9,6 +9,8 @@
   - DOMAIN-SUFFIX,magpie.bond,DIRECT #cdn线路
   - DOMAIN-SUFFIX,magpie.cyou,🎬 Emby #主线路
   - DOMAIN-SUFFIX,magpiecdn.tech,🎬 Emby #主线路推流
+#Tank
+  - DOMAIN,a.tiangou.xyz,DIRECT
 #PiliPili Ultra
   - DOMAIN-KEYWORD,pilipili,🎬 Emby
 #GuGu
