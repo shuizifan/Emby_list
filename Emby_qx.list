@@ -11,6 +11,8 @@ host-suffix,magpie.bond,direct
 host-suffix,magpie.cyou,Emby
 #喜鹊主线路推流
 host-suffix,magpiecdn.tech,Emby
+#Tank
+host,a.tiangou.xyz,direct
 #PiliPili
 host-keyword,pilipili,Emby
 #GuGu
