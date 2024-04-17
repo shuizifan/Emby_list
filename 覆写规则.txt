@@ -22,7 +22,7 @@
 #Orange
   #- DOMAIN,cf.otv.icu,🎬 Emby
 #CC
-  - DOMAIN-SUFFIX,cc.coemn.com,DIRECT
+  - DOMAIN,cc.coemn.com,DIRECT
 #MJJ
   - DOMAIN-SUFFIX,mjjemby.org,🎬 Emby
   - IP-CIDR,85.239.235.232/32,🎬 Emby
@@ -53,8 +53,16 @@
   - DOMAIN,emby3.mcjoker.xyz,🎬 Emby
 #红尘（OneDrive）
   - DOMAIN,vip.reddust.link,🎬 Emby
-  - DOMAIN,new.happyav.eu.org,DIRECT
+  - DOMAIN,new.happyav.eu.org,🎬 Emby
 #江湖
+
+#纸片人
+  - DOMAIN,emby.embyplus.org,🎬 Emby
+  - DOMAIN,gd.9521732.xyz,🎬 Emby
+#paul_电报服
+  - DOMAIN-SUFFIX,imetyou.top,🎬 Emby
+#TreeDiagram
+  - DOMAIN,789.123456.al,🎬 Emby
 
 ##其它##
   - DOMAIN-KEYWORD,steam,DIRECT #steam
@@ -67,10 +75,3 @@
   #🐟 漏网之鱼
   #🎬 Emby
 
-#纸片人
-  - DOMAIN,emby.embyplus.org,🎬 Emby
-  - DOMAIN,gd.9521732.xyz,🎬 Emby
-#paul_电报服
-  - DOMAIN-SUFFIX,imetyou.top,🎬 Emby
-#TreeDiagram
-  - DOMAIN,789.123456.al,🎬 Emby
