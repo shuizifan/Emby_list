@@ -1,0 +1,201 @@
+##喜鹊wiki、商店等##
+  - DOMAIN,probe.magpie.bond,Final
+  - DOMAIN,wiki.magpie.bond,Final
+  - DOMAIN,pan.magpie.bond,Final
+  - DOMAIN,pan.magpie.bond,Final
+####
+##emby规则##
+#喜鹊
+  - DOMAIN-SUFFIX,magpie.bond,DIRECT #cdn线路
+  - DOMAIN-SUFFIX,magpie.cyou,🎬 Emby #主线路
+  - DOMAIN-SUFFIX,magpiecdn.tech,🎬 Emby #主线路推流
+#PiliPili Ultra
+  - DOMAIN-KEYWORD,pilipili,🎬 Emby
+#GuGu
+  - DOMAIN,pro.gugu.medie,DIRECT
+  - DOMAIN,main.gugu.medie,🎬 Emby
+#Peach
+  - IP-CIDR,193.123.232.141/32,DIRECT #直连推流
+  - IP-CIDR,141.147.166.107/32,🎬 Emby #挂梯推流
+#Orange
+  #- DOMAIN,cf.otv.icu,🎬 Emby
+#CC
+  - DOMAIN-SUFFIX,cc.coemn.com,DIRECT
+#MJJ
+  - DOMAIN-SUFFIX,mjjemby.org,🎬 Emby
+  - IP-CIDR,85.239.235.232/32,🎬 Emby
+#MICU
+  - DOMAIN,tv.micu.hk,DIRECT
+#1111/垃圾影音
+  - DOMAIN,pm.xmsl.org,DIRECT #公费服前端直连
+  - DOMAIN,sbd.loseremby.org,DIRECT #公费服推流—联通4837
+  - DOMAIN,tw.loseremby.org,DIRECT #公费服推流—台湾HiNet
+  - IP-CIDR,61.171.70.126/32,DIRECT #公费服推流—上海-日本
+  - DOMAIN,free.xmsl.org,🎬 Emby #公益服前端
+  - DOMAIN,ushd.xmsl.org,🎬 Emby #公益服推流
+  - DOMAIN-SUFFIX,xmsl.org,🎬 Emby
+  - DOMAIN-SUFFIX,loseremby.org,🎬 Emby
+#MiSaKaF
+  - DOMAIN,embyvip.misakaf.org,DIRECT
+  - DOMAIN,emby.misakaf.org,🎬 Emby
+  - DOMAIN,stream1.misakaf.org,🎬 Emby
+  - DOMAIN,stream2.misakaf.org,🎬 Emby
+  - DOMAIN,stream3.misakaf.org,🎬 Emby
+  - DOMAIN,stream4.misakaf.org,🎬 Emby
+#好鸭卷毛鼠
+  - DOMAIN,e.niceduck.me,🎬 Emby
+#叔服
+  - DOMAIN,jz.mcjoker.xyz,DIRECT
+  - IP-CIDR,43.229.154.66/32,DIRECT
+  - DOMAIN,emby3.mcjoker.xyz,🎬 Emby
+#红尘（OneDrive）
+  - DOMAIN,vip.reddust.link,🎬 Emby
+  - DOMAIN,new.happyav.eu.org,DIRECT
+#江湖
+
+#纸片人
+  - DOMAIN,emby.embyplus.org,🎬 Emby
+  - DOMAIN,gd.9521732.xyz,🎬 Emby
+#paul_电报服
+  - DOMAIN-SUFFIX,imetyou.top,🎬 Emby
+#TreeDiagram
+  - DOMAIN,789.123456.al,🎬 Emby
+
+#Github列表
+  - DOMAIN,emby.nexitally.com,🎬 Emby
+  - DOMAIN,emby.cjpc.cc,🎬 Emby
+  - DOMAIN,emby.flowercloud.yt,🎬 Emby
+  - DOMAIN,emby.maying.club,🎬 Emby
+  - DOMAIN,emby.mdss.cloud,🎬 Emby
+  - DOMAIN,emby.ytoo.li,🎬 Emby
+  - DOMAIN,embyserver.ga,🎬 Emby
+  - DOMAIN,emby.prprcloud.com,🎬 Emby
+  - DOMAIN,emby.nyancat.net,🎬 Emby
+  - DOMAIN,emby.plusmedia.site,🎬 Emby
+  - DOMAIN,emby-cf.plusmedia.site,🎬 Emby
+  - DOMAIN,emby-sg.plusmedia.site,🎬 Emby
+  - DOMAIN,emby.xeton.dev,🎬 Emby
+  - DOMAIN,jellyfin.xeton.dev,🎬 Emby
+  - DOMAIN,movie.xeton.dev,🎬 Emby
+  - DOMAIN,servers.xeton.dev,🎬 Emby
+  - DOMAIN,emby.otakudrive.life,🎬 Emby
+  - DOMAIN,emby2.otakudrive.life,🎬 Emby
+  - DOMAIN,agahk1.jmsooo.com,🎬 Emby
+  - DOMAIN,agasg1.jmsooo.com,🎬 Emby
+  - DOMAIN,agajp1.jmsooo.com,🎬 Emby
+  - DOMAIN,aws.jmsooo.com,🎬 Emby
+  - DOMAIN,ntt1.jmsooo.com,🎬 Emby
+  - DOMAIN,hinet.jmsooo.com,🎬 Emby
+  - DOMAIN,cf1.jmsooo.com,🎬 Emby
+  - DOMAIN,pornemby.club,🎬 Emby
+  - DOMAIN,emby.immtel.com,🎬 Emby
+  - DOMAIN,cf.odysseyplus.site,🎬 Emby
+  - DOMAIN,agahk.odysseyplus.site,🎬 Emby
+  - DOMAIN,agasg.odysseyplus.site,🎬 Emby
+  - DOMAIN,ru.odysseyplus.site,🎬 Emby
+  - DOMAIN,line.emby.men,🎬 Emby
+  - DOMAIN,emby.run,🎬 Emby
+  - DOMAIN,emby.plusmedia.site,🎬 Emby
+  - DOMAIN,emby-sg.plusmedia.site,🎬 Emby
+  - DOMAIN,emby-cf.plusmedia.site,🎬 Emby
+  - DOMAIN,emby.xeton.dev,🎬 Emby
+  - DOMAIN,jellyfin.xeton.dev,🎬 Emby
+  - DOMAIN,movie.xeton.dev,🎬 Emby
+  - DOMAIN,servers.xeton.dev,🎬 Emby
+  - DOMAIN,jmsooo.com,🎬 Emby
+  - DOMAIN,cf.jmsooo.com,🎬 Emby
+  - DOMAIN,hk.jmsooo.com,🎬 Emby
+  - DOMAIN,sg.jmsooo.com,🎬 Emby
+  - DOMAIN,emby.wtf,🎬 Emby
+  - DOMAIN,pub1back.emby.wtf,🎬 Emby
+  - DOMAIN,pub2back.emby.wtf,🎬 Emby
+  - DOMAIN,pub3back.emby.wtf,🎬 Emby
+  - DOMAIN,pub1.emby.wtf,🎬 Emby
+  - DOMAIN,pub2.emby.wtf,🎬 Emby
+  - DOMAIN,pub3.emby.wtf,🎬 Emby
+  - DOMAIN,embyclub.com,🎬 Emby
+  - DOMAIN,az-hk.embyclub.com,🎬 Emby
+  - DOMAIN,azsgp.embyclub.com,🎬 Emby
+  - DOMAIN,charontv.com,🎬 Emby
+  - DOMAIN,emby.p-p.men,🎬 Emby
+  - DOMAIN,emby.aiyowei.ml,🎬 Emby
+  - DOMAIN,poloemby.xyz,🎬 Emby
+  - DOMAIN,pololine.ml,🎬 Emby
+  - DOMAIN,gfwemby.org,🎬 Emby
+  - DOMAIN,cc.ccemby.tk,🎬 Emby
+  - DOMAIN,direct.nebula-emby.com,🎬 Emby
+  - DOMAIN-SUFFIX,ccemby.tk,🎬 Emby
+  - DOMAIN-SUFFIX,embyplus.club,🎬 Emby
+  - DOMAIN-SUFFIX,speedx.one,🎬 Emby
+  - DOMAIN-SUFFIX,embymv.tk,🎬 Emby
+  - DOMAIN-SUFFIX,bddup.com,🎬 Emby
+  - DOMAIN-SUFFIX,emby.cl,🎬 Emby
+  - DOMAIN-SUFFIX,emby.ml,🎬 Emby
+  - DOMAIN-SUFFIX,nivod4.tv,🎬 Emby
+  - DOMAIN-SUFFIX,newpppp.com,🎬 Emby
+  - DOMAIN-SUFFIX,freetz.top,🎬 Emby
+  - DOMAIN-SUFFIX,newwan.top,🎬 Emby
+  - DOMAIN-SUFFIX,shuipo.lol,🎬 Emby
+  - DOMAIN-SUFFIX,dicarerhome.com,🎬 Emby
+  - DOMAIN-SUFFIX,emby77.cf,🎬 Emby
+  - IP-CIDR,188.172.228.49/32,🎬 Emby
+  - IP-CIDR,202.61.255.248/32,🎬 Emby
+  - DOMAIN-SUFFIX,embytv.cf,🎬 Emby
+  - DOMAIN-SUFFIX,zox.show,🎬 Emby
+  - DOMAIN-SUFFIX,acemby.org,🎬 Emby
+  - DOMAIN-SUFFIX,bili.rip,🎬 Emby
+  - DOMAIN-SUFFIX,ju.dog,🎬 Emby
+  - DOMAIN-SUFFIX,misty.ltd,🎬 Emby
+  - DOMAIN-SUFFIX,ednovas.org,🎬 Emby
+  - DOMAIN-SUFFIX,deja-vu.beauty,🎬 Emby
+  - DOMAIN-SUFFIX,studyfun.live,🎬 Emby
+  - DOMAIN-SUFFIX,charontv.com,🎬 Emby
+  - DOMAIN-SUFFIX,gtlx.org,🎬 Emby
+  - DOMAIN-SUFFIX,9191001.xyz,🎬 Emby
+  - DOMAIN-SUFFIX,carlos.trade,🎬 Emby
+  - DOMAIN-SUFFIX,agon.cf,🎬 Emby
+  - DOMAIN-SUFFIX,goodisp.org,🎬 Emby
+  - DOMAIN-SUFFIX,emby77.org,🎬 Emby
+  - DOMAIN-SUFFIX,mius.uk,🎬 Emby
+  - DOMAIN,emby.eu.org,🎬 Emby
+  - DOMAIN-SUFFIX,wiri.tk,🎬 Emby
+  - DOMAIN-SUFFIX,285286.xyz,🎬 Emby
+  - DOMAIN-SUFFIX,zi0.icu,🎬 Emby
+  - DOMAIN-SUFFIX,bangumi.ca,🎬 Emby
+  - DOMAIN-SUFFIX,emby.kim,🎬 Emby
+  - DOMAIN-SUFFIX,4545.cf,🎬 Emby
+  - DOMAIN-SUFFIX,ggtt.cf,🎬 Emby
+  - DOMAIN-SUFFIX,mulgore.net,🎬 Emby
+  - DOMAIN-SUFFIX,emby.pro,🎬 Emby
+  - DOMAIN-SUFFIX,xiaoyi.one,🎬 Emby
+  - DOMAIN-SUFFIX,embymv.me,🎬 Emby
+  - DOMAIN-SUFFIX,infinityfly.top,🎬 Emby
+  - DOMAIN-SUFFIX,lucasmedia.top,🎬 Emby
+  - DOMAIN-SUFFIX,nvidia.rip,🎬 Emby
+  - DOMAIN-SUFFIX,emby77.org,🎬 Emby
+  - DOMAIN-SUFFIX,20120714.xyz,🎬 Emby
+  - DOMAIN-SUFFIX,gugumedia.link,🎬 Emby
+  - DOMAIN-SUFFIX,dicarerhome.com,🎬 Emby
+  - DOMAIN,starcat.eu.org,🎬 Emby
+  - DOMAIN,catlinks.co.uk,🎬 Emby
+  - DOMAIN-SUFFIX,emby.ws,🎬 Emby
+  - DOMAIN-SUFFIX,ohhhh.org,🎬 Emby
+  - DOMAIN-SUFFIX,cn2gias.uk,🎬 Emby
+  - DOMAIN,emby.aca.best,🎬 Emby
+  - DOMAIN,porn.aca.best,🎬 Emby
+  - DOMAIN-SUFFIX,ju.dog,🎬 Emby
+  - DOMAIN,push-kr.cfprefer3.xyz,🎬 Emby
+  - DOMAIN,ntrrr.am.sb,🎬 Emby
+  - DOMAIN,stream.synn.cc,🎬 Emby
+  - DOMAIN,notnetflix.cos.cat,🎬 Emby
+
+##其它##
+  - DOMAIN-KEYWORD,steam,DIRECT #steam
+
+#关键词
+  #- DOMAIN
+  #- DOMAIN-SUFFIX
+  #DIRECT
+  #Final
+  #🐟 漏网之鱼
+  #🎬 Emby
