@@ -2,32 +2,35 @@
   - DOMAIN,probe.magpie.bond,Final
   - DOMAIN,wiki.magpie.bond,Final
   - DOMAIN,pan.magpie.bond,Final
-  - DOMAIN,pan.magpie.bond,Final
 ####
 ##emby规则##
 #喜鹊
   - DOMAIN-SUFFIX,magpie.bond,DIRECT #cdn线路
-  - DOMAIN-SUFFIX,magpie.cyou,🎬 Emby #主线路
-  - DOMAIN-SUFFIX,magpiecdn.tech,🎬 Emby #主线路推流
-#Tank
-  - DOMAIN,a.tiangou.xyz,DIRECT
+  - DOMAIN-KEYWORD,magpie,🎬 Emby
 #PiliPili Ultra
   - DOMAIN-KEYWORD,pilipili,🎬 Emby
+#Tank
+  - DOMAIN,a.tiangou.xyz,DIRECT
+#MICU
+  - DOMAIN,tv.micu.hk,DIRECT
+  - DOMAIN,media.micu.hk,🎬 Emby
 #GuGu
-  - DOMAIN,pro.gugu.medie,DIRECT
-  - DOMAIN,main.gugu.medie,🎬 Emby
+  - DOMAIN,pro.gugu.media,DIRECT
+  - DOMAIN,main.gugu.media,🎬 Emby
+#终点站
+  - DOMAIN-SUFFIX,emby.wtf,🎬 Emby
+#搬服
+  - DOMAIN-SUFFIX,955557.xyz,🎬 Emby
 #Peach
   - IP-CIDR,193.123.232.141/32,DIRECT #直连推流
   - IP-CIDR,141.147.166.107/32,🎬 Emby #挂梯推流
-#Orange
-  #- DOMAIN,cf.otv.icu,🎬 Emby
 #CC
   - DOMAIN-SUFFIX,cc.coemn.com,DIRECT
 #MJJ
   - DOMAIN-SUFFIX,mjjemby.org,🎬 Emby
   - IP-CIDR,85.239.235.232/32,🎬 Emby
-#MICU
-  - DOMAIN,tv.micu.hk,DIRECT
+#好鸭卷毛鼠
+  - DOMAIN,e.niceduck.me,🎬 Emby
 #1111/垃圾影音
   - DOMAIN,pm.xmsl.org,DIRECT #公费服前端直连
   - DOMAIN,sbd.loseremby.org,DIRECT #公费服推流—联通4837
@@ -44,8 +47,6 @@
   - DOMAIN,stream2.misakaf.org,🎬 Emby
   - DOMAIN,stream3.misakaf.org,🎬 Emby
   - DOMAIN,stream4.misakaf.org,🎬 Emby
-#好鸭卷毛鼠
-  - DOMAIN,e.niceduck.me,🎬 Emby
 #叔服
   - DOMAIN,jz.mcjoker.xyz,DIRECT
   - IP-CIDR,43.229.154.66/32,DIRECT
